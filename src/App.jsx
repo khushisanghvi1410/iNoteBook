@@ -1,13 +1,5 @@
-
-
 function App() {
-  
-
-  return (
-    <>
-     Khushi
-    </>
-  )
+  return <>Khushi</>;
 }
 
-export default App
+export default App;

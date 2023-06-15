@@ -1,10 +1,12 @@
 import mongoose from "mongoose";
 
-const MONGO_URI = "mongodb://localhost:27017";
-const conn = () => {
-  mongoose
+const MONGO_URI = "mongodb://127.0.0.1:27017/inotebook";
+const conn =  () => {
+   mongoose
     .connect(MONGO_URI)
-    .then(console.log("Connected to MongoDb"))
+    .then(()=>{
+      console.log("DB connected")
+    })
     .catch((e) => {
       console.log(e);
     });

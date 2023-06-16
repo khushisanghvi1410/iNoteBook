@@ -4,7 +4,7 @@ import NoteContext from "../context/NoteContext";
 
 function About() {
   return(
-<div>About COmponent</div>
+<div>About Component</div>
   );
 }
 

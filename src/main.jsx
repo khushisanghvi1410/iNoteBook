@@ -10,7 +10,7 @@ import AboutPage from "./pages/AboutPage.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App></App>,
+    element:<NoteState> <App></App></NoteState>,
   },
   {
     path: "/about",

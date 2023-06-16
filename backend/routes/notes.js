@@ -35,7 +35,7 @@ router.post(
         title: req.body.title,
         description: req.body.description,
         tags: req.body.tags,
-        user: req.user.id,
+        user: req.body.id,
       });
 
       res.json({ note });
